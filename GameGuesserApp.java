@@ -1,4 +1,3 @@
-package com.abc.Tech;
 import java.util.Scanner;
 
 class Guesser
