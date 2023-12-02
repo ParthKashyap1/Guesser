@@ -103,7 +103,7 @@ class Umpire{
 		{
 			System.out.println("Player 3 won");
 		}
-		else if(numberFromGuesser != numFromPlayer1 && numberFromGuesser != numberFromPlayer2)
+		else if(numFromGuesser != numFromPlayer1 && numFromGuesser != numFromPlayer2)
 		{
 			System.out.println("Game lost!! Try again");
 		}
