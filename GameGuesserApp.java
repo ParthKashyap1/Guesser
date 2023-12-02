@@ -13,7 +13,7 @@ class Guesser{
 	* @return The number collected from the Guesser.
 	*/
 	int guessNum(int low,int high){
-		System.out.println("Please guess a number between " +low+ " to " +high+);
+		System.out.println("Please guess a number between " +low+ " to " +high);
 		Scanner scan = new Scanner(System.in);
 		gnum = scan.nextInt();
 		if(gnum >= low && gnum <= high)
@@ -40,7 +40,7 @@ class Player{
 	* @return The predicted value from player.
 	*/
 	int predictNum(int low,int high){
-		System.out.println("Please predict a number between " +low+ " to " +high+);
+		System.out.println("Please predict a number between " +low+ " to " +high);
 		Scanner scan =  new Scanner(System.in);
 		pnum = scan.nextInt();
 		if(pnum >= low && pnum <= high)
